@@ -35,7 +35,7 @@ a.lowlight:hover { color: #666; }
 .verde { color: #4CAF50; }
 .azul { color: #1E83D4; }
 
-.in-parei, .in-data, .in-hora { color: #795548; }
+.in-parei, .in-data, .in-hora, article a { color: #795548; }
 .in-parei { width: 200px; }
 .in-data, .in-hora { text-align: center; }
 .in-data { width: 125px; }
