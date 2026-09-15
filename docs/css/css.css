@@ -41,3 +41,5 @@ a.lowlight:hover { color: #666; }
 .fora-da-tela { top: -9999px; position: absolute; }
 
 .github-icon { top: 2px; position: relative; opacity: 0.3; }
+
+article { padding-top: 33px; }

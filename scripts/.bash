@@ -3,7 +3,7 @@ clear ; cd "$(dirname "${0}")"
 ##############################
 
 run() {
-    cd ../src
+    cd ../docs
     # echo y | npx vite --base ./ --open --strictPort
     npx vite --base ./ --open --strictPort
     cd "${OLDPWD}"
