@@ -1,12 +1,15 @@
 * {
+	font-size: 18pt;
 	box-sizing: inherit;
 	color: #444;
 }
 *:not(pre) { font-family: Roboto, sans-serif; }
-*:not(h1) { font-size: 17pt; }
 
-h1 { color: #5B258E; letter-spacing: 4px; }
+h1 { color: #5B258E; letter-spacing: 4px; font-size: 2.5em; }
 a:hover h1 { color: #A179C7; }
+
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
 
 .exclamacao { font-size: 1.75em; position: relative; top: 10px; }
 
