@@ -20,6 +20,7 @@ a:hover h1 {
 
 h2 {
 	font-size: 1.5em;
+	margin-top: 0.4em;
 }
 
 h3 {
@@ -129,7 +130,7 @@ article a {
 }
 
 article {
-	padding: 0 20px 0 20px;
+	padding: 20px 20px 15px 20px;
 	border: 1px solid gray;
 	margin: 20px;
 	background-color: aliceblue;
