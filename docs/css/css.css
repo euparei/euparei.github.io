@@ -3,46 +3,134 @@
 	box-sizing: inherit;
 	color: #444;
 }
-*:not(pre) { font-family: Roboto, sans-serif; }
 
-h1 { color: #5B258E; letter-spacing: 4px; font-size: 2.5em; }
-a:hover h1 { color: #A179C7; }
+*:not(pre) {
+	font-family: Roboto, sans-serif;
+}
 
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.25em; }
+h1 {
+	color: #5B258E;
+	letter-spacing: 4px;
+	font-size: 2.5em;
+}
 
-.exclamacao { font-size: 1.75em; position: relative; top: 10px; }
+a:hover h1 {
+	color: #A179C7;
+}
 
-body { margin: 20px; background-color: #F7F7F8; }
+h2 {
+	font-size: 1.5em;
+}
 
-a.focusable { padding: 2px 7px 3px 7px; }
-a, a.low.lowlight { text-decoration: none; }
-a.low.lowlight { padding: 0; }
-a:hover { text-decoration: underline; }
+h3 {
+	font-size: 1.25em;
+}
 
-button { border-radius: 5px; width: 33px; height: 29px; background-color: #FFE; }
+.exclamacao {
+	font-size: 1.75em;
+	position: relative;
+	top: 10px;
+}
 
-.display-none { display: none; }
-.visibility-hidden { visibility: hidden; }
+body {
+	margin: 20px;
+	background-color: #F7F7F8;
+}
 
-.small { font-size: 0.8em; }
+a.focusable {
+	padding: 2px 7px 3px 7px;
+}
 
-a.lowlight { color: #888; }
-a.lowlight:hover { color: #666; }
+a,
+a.low.lowlight {
+	text-decoration: none;
+}
 
-.text-align-center { text-align: center; }
+a.low.lowlight {
+	padding: 0;
+}
 
-.verde { color: #4CAF50; }
-.azul { color: #1E83D4; }
+a:hover {
+	text-decoration: underline;
+}
 
-.in-parei, .in-data, .in-hora, article a { color: #795548; }
-.in-parei { width: 200px; }
-.in-data, .in-hora { text-align: center; }
-.in-data { width: 125px; }
-.in-hora { width: 67px; }
+button {
+	border-radius: 5px;
+	width: 33px;
+	height: 29px;
+	background-color: #FFE;
+}
 
-.fora-da-tela { top: -9999px; position: absolute; }
+.display-none {
+	display: none;
+}
 
-.github-icon { top: 2px; position: relative; opacity: 0.3; }
+.visibility-hidden {
+	visibility: hidden;
+}
 
-article { padding-top: 33px; }
+.small {
+	font-size: 0.8em;
+}
+
+a.lowlight {
+	color: #888;
+}
+
+a.lowlight:hover {
+	color: #666;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.verde {
+	color: #4CAF50;
+}
+
+.azul {
+	color: #1E83D4;
+}
+
+.in-parei,
+.in-data,
+.in-hora,
+article a {
+	color: #795548;
+}
+
+.in-parei {
+	width: 200px;
+}
+
+.in-data,
+.in-hora {
+	text-align: center;
+}
+
+.in-data {
+	width: 125px;
+}
+
+.in-hora {
+	width: 67px;
+}
+
+.fora-da-tela {
+	top: -9999px;
+	position: absolute;
+}
+
+.github-icon {
+	top: 2px;
+	position: relative;
+	opacity: 0.3;
+}
+
+article {
+	padding: 0 20px 0 20px;
+	border: 1px solid gray;
+	margin: 20px;
+	background-color: aliceblue;
+}
