@@ -1,6 +1,6 @@
 # Eu Parei!
 
-### Versão: 1.0.1
+### Versão: 1.0.0
 
 https://euparei.github.io/
 
