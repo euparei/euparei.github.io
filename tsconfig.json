@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2025",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "rootDir": "src/ts",
+    "outDir": "src/js"
+  },
+  "include": ["src/ts/**/*.mts"]
+}
