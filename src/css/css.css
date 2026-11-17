@@ -135,3 +135,13 @@ article {
 	margin: 20px;
 	background-color: aliceblue;
 }
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	a {
+		display: flex;
+	}
+}
